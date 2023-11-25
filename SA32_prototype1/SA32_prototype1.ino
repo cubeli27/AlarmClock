@@ -1,7 +1,7 @@
 #include <Wire.h>             //librry wire
 #include "pitches.h"          //tones for buzzer
-#include <LiquidCrystal_I2C.h>  //library LCD
 
+#include <LiquidCrystal_I2C.h>  //library LCD
 LiquidCrystal_I2C lcd(0x27,16,2); // LCD object
 
 #include <virtuabotixRTC.h>   //library RTC
